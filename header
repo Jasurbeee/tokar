@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+         <div class="header d-flex justify-content-between text-center align-items-center mt-5">
+            <img src="./images/logo.png" alt="logo" width="181" height="33">
+            <span class="lead ps-2 w-25 ">TokarCompany - производственно -строительная компания</span>
+            <div class="contact">
+                <p class="lead ps-1 ">Связаться напрямую:</p>
+                <div class="contact-link d-flex  justify-content-center gap-2 ">
+                    <img src="./images/Telegram.svg" alt="Telegram" width="26" height="26">
+                    <img src="./images/WhatsApp.svg" alt="WhatsApp" width="26" height="26">
+                    <img src="./images/вайбер.svg" alt="вайбер" width="26" height="26">
+                </div>
+            </div>
+            <div class="tel">
+                <a href="tel:+380(67)1755630">+3 80 (67) 175 56 30</a>
+                <p>c 09:00 до 18:00 (пн-вс)</p>
+            </div>
+            <div class="delivery">
+                <button class="btn p-2 bg-warning">Заказать звонок</button>
+                <p class=" mt-1">Бесплатно по Украине</p>
+            </div>
+            <div class="flag mb-5">
+                <img class="lang " src="./images/Язык.svg" alt="languages" width="33" heigh="15">
+            </div>
+         </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="hero mt-5">
+                    <div class="hero-contact d-flex justify-content-center  align-items-center gap-5">
+                        <div class="right bg-dark text-light d-flex justify-content-between p-2 w-25 gap-2 rounded">
+                            <div class="div"> <p>Жилое</p> </div>
+                            <div class="div"><p>Коммерческое</p></div>
+                            <div class="div"><p>Садовое</p></div>
+                        </div>
+                        <div class="left d-flex justify-content-between w-25">
+                            <div><p>o компании</p></div>
+                            <div><p>Наши работы</p></div>
+                            <div><p>Контакты</p></div>
+                        </div>
+                    </div>
+                    <div class="production d-flex align-items-center mt-5">
+                        <div class="production-data w-50">
+                            <h2 class="h2 w-75">Производим и устанавливаем строения разных видов в Украине</h2>
+                            <p class="lead w-75 mt-5 mb-5">Индивидуально под ваш запрос построим дом, ресторан, баню, беседку, мангал или любую другую постройку</p>
+                            <div class="buttons">
+                                <button class="btn p-2 bg-warning">Перейти в каталог домов</button>
+                                <a class="align-items-center ms-5 text-warning " href=""> <img class="me-2" src="./images/katalog-img.svg" alt="katalog-img" width="20" height="20">Каталог бань</a>
+                            </div>
+                        </div>
+                        <img src="./images/home-hero.png" alt="">
+                    </div>
+                <div class="hero-data m-auto mt-5 w-75 d-flex justify-content-center flex-column">
+                        <h3 class="h3">Почему выбирают нас:</h3>
+                    <div class="data-cards d-flex mt-5 gap-4">
+
+                        <div class="data-card w-50">
+                            <img src="./images/Иконка.png" alt="Иконка">
+                            <h6 class="h6 mt-4">Эксклюзивный дизайн</h6>
+                            <p class="lead "> He имеющий аналогов в Украине</p>
+                        </div>
+
+                       
+                        <div class="data-card">
+                            <img src="./images/komputer.png" alt="komputer">
+                            <h6 class="h6 mt-4"> Разработка модели</h6>
+                            <p class="lead w-75"> Индивидуальной c помощью 3D-визуализации в нашем приложении</p>
+                        </div>
+
+                      
+                        <div class="data-card">
+                            <img src="./images/sertificate.png" alt="sertificate">
+                            <h6 class="h6 mt-4"> Сертификаты</h6>
+                            <p class="lead "> качества Подтверждают наши материалы и комплектующие</p>
+                        </div>
+ 
+                        <div class="data-card">
+                            <img src="./images/agreement.png" alt="agreement">
+                            <h6 class="h6 mt-4">Работа под ключ </h6>
+                            <p class="lead w-75">B среднем за X дней от установки фундамента до сдачи объекта в эксплуатацию</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="katalog"></section>
+
+        </div>
+    </main>
+</body>
+</html>
